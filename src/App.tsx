@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import DashboardPage from './pages/DashboardPage';
+import DashboardPage from './features/dashboard/DashboardPage';
 
 export default function App() {
     return (
