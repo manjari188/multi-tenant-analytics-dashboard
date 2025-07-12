@@ -9,14 +9,14 @@ export default function Sidebar() {
             <nav className="flex flex-col p-4 space-y-2">
                 <Link
                     to="/dashboard"
-                    className={`p-2 rounded hover:bg-gray-200 ${location.pathname === '/dashboard' ? 'bg-gray-200 font-semibold' : ''}`}>
+                    className={`p-2 rounded hover:bg-gray-200 ${location.pathname === '/dashboard' ? 'bg-gray-200 dark:bg-gray-700 font-semibold' : ''}`}>
                     Dashboard
                 </Link>
-                <Link
-                    to="/settings"
-                    className={`p-2 rounded hover:bg-gray-200 ${location.pathname === '/settings' ? 'bg-gray-200 font-semibold' : ''}`}>
-                    Settings
-                </Link>
+                <Link 
+  to="/settings"
+  className={`p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 ${location.pathname === '/settings' ? 'bg-gray-200 dark:bg-gray-700 font-semibold' : ''}`}>
+  Settings
+</Link>
             </nav>
         </aside>
     )
