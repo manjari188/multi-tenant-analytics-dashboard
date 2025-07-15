@@ -1,5 +1,5 @@
 
-# 🧠 My Dashboard App
+# Analytics Dashboard
 
 A modern, fully type-safe **React + TypeScript dashboard app** built with:
 
@@ -8,7 +8,6 @@ A modern, fully type-safe **React + TypeScript dashboard app** built with:
 - 🔥 **React Query** for smart data fetching & caching
 - 🌙 **Dark mode toggle** (persisted with localStorage)
 - 🌍 **i18n toggle (English / French)** with `react-i18next`
-- 📊 **Pluggable widgets system** (like Netlify cards)
 - 🐶 **Husky + lint-staged** for pre-commit checks
 - ✅ **ESLint + Prettier** for consistent code style
 
@@ -17,7 +16,6 @@ A modern, fully type-safe **React + TypeScript dashboard app** built with:
 ## ✨ Features
 
 - ⚡ **React 18 + Vite + TypeScript**  
-- 🧩 **Modular widgets system**: add metrics, charts, or even custom React components via config
 - 🌘 **Theme toggle (light / dark)** with Tailwind `dark:` classes + smooth transitions
 - 🌐 **i18n toggle (EN/FR)** with persistent language choice
 - 🔥 **React Query** for async data, caching, retries & devtools
@@ -64,21 +62,6 @@ The app runs at [http://localhost:5173](http://localhost:5173).
 
 ---
 
-## 📂 Project structure
-
-```
-src/
-├── app/              # React Query client, store setup
-├── components/       # Navbar, Sidebar, MetricCard, Chart, WidgetRenderer
-├── hooks/            # Custom hooks (useDashboardData)
-├── pages/            # DashboardPage, SettingsPage
-├── services/         # API functions
-├── types/            # TypeScript type definitions
-├── i18n.ts           # i18n config
-└── main.tsx          # App bootstrap
-```
-
----
 
 ## 🛠️ Tech stack
 
@@ -89,7 +72,6 @@ src/
 | **React Query**         | Data fetching, caching, retries       |
 | **i18next**             | i18n (English / French toggle)        |
 | **Recharts**            | For data visualizations               |
-| **Framer Motion**       | Smooth UI animations                 |
 | **Husky + lint-staged** | Git hooks for quality enforcement    |
 | **ESLint + Prettier**   | Linting & formatting                  |
 
@@ -97,15 +79,19 @@ src/
 
 ## 🌍 Features roadmap
 
-✅ Pluggable dashboard widgets (charts, metrics, custom)  
 ✅ Theme toggle (light/dark)  
 ✅ i18n toggle (EN/FR)  
 ✅ React Query devtools  
-🚀 Coming: drag & drop widget reordering, saved layouts.
 
 ---
 
 ## ✨ Screenshots
+
+<img width="1419" height="694" alt="Screenshot 2025-07-15 at 10 51 05 PM" src="https://github.com/user-attachments/assets/0dd2fb90-4648-4e7f-aac7-acc6ea0290a2" />
+
+
+https://github.com/user-attachments/assets/b32d1396-a395-4e05-93f0-89df88f152ec
+
 
 ---
 
